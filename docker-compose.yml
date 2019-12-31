@@ -3,7 +3,7 @@ services:
 
   jenkins:
     build: ./
-    privileged: true
+#    privileged: true # "the container can then do almost everything that the host can do"
     user: root
     ports:
       - "8080:8080"
